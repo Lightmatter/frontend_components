@@ -1,0 +1,8 @@
+*.pyc
+*.pyo
+/.env
+/.venv/
+/node_modules
+/frontend_components/static
+.DS_Store
+.editorconfig
