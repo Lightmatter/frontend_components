@@ -15,8 +15,8 @@ export default defineConfig({
     manifest: true, // adds a manifest.json
     rollupOptions: {
       input: {
-        main: resolve(__dirname, './frontend/js/main.ts'),
-        base: resolve(__dirname, './frontend/css/base.js'),
+        main: resolve(__dirname, './frontend_components/templates/components/main.ts'),
+        base: resolve(__dirname, './frontend_components/templates/components/base.js'),
         raw_tailwind: resolve(__dirname, './frontend/css/tailwind.js'),
       }
     },
